@@ -1,0 +1,52 @@
+DERS 1 KONULAR
+
+if 7>2: #öğrenme aşaması 1
+ print ("printseven was good")
+ print ("ım a bıg men")
+ #soldier1
+ #soldier2
+ #soldier3
+
+-
+#varible
+x=7
+y="python" 
+
+print (x)
+print (y)
+
+-
+#varible
+x=7 #x is of type int
+y="python" #y is of type string
+
+print (x)
+print (y)
+
+-
+#varible casting
+x=str(7) #ifade
+y=int(7) #tam sayı
+z=float(7) #ondalıklı sayı
+
+print (x)
+print (y)
+print (z)
+
+-
+#varible
+x=7
+y="python" 
+
+print (type (x))
+print (type(y))
+
+-
+#varible single or double quotes
+x=7
+y="python" 
+print (y)
+z='awsome'
+print(z)
+
+

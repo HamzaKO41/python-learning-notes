@@ -1,0 +1,51 @@
+DERS 2
+MULTI WORDS VARIABLE NAMES
+
+Camel Case = İlk kelime hariç her kelime büyük harfle başlar
+#varible
+myName="fehmi"
+kupunTopluHacmi=70
+
+print (myName)
+print (kupunTopluHacmi)
+ 
+Pascal Case = Her kelime büyük harfle başlar, daha yaygın olarak UpperCamelCase olarakda bilinir
+
+#varible
+MyNameIsHamza="3"
+
+print (MyNameIsHamza)
+
+Snake Case = Her kelime bir alt çizgi karakteriyle ayrılır
+
+#varible
+my_name_is_hamza=7
+
+print (my_name_is_hamza)
+
+VARIBLE İSİMLERİNİ RASTGELE KOYMA - SAYILAR VARIBLEDA BAŞA KOYULMAZ - PYTHON SIFATLARI VARIBLE İSMİ OLMAZ
+
+#varible
+x,y,z="banana","apple,"grape"
+
+print (x)
+print (y)
+print (z)
+
+-
+
+#varible
+a=b=c="red"
+
+print (a)
+print (b)
+print (c)
+
+-
+
+#varible
+name="hamza"
+lastname=name
+
+print (lastname)
+

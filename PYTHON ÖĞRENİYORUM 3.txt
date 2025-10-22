@@ -1,0 +1,127 @@
+DERS 3
+
+#output variablas
+x="python"
+y="is"
+z="wonderful"
+print (x,y,z) 
+
+SONUÇ - python is wonderful
+
+-
+
+#output variablas
+x=7
+y="python"
+
+print (x+y) 
+
+SONUÇ - HATA ÇÜNKÜ SAYI İLE YAZILI İFADE BİRLEŞEMEZ, + MATEMATİKSEL BİR İFADEDİR VE TOPLAMA YAPAR
+
+-
+
+#output variablas
+x=7
+y=7
+
+print (x+y) 
+
+SONUÇ - 14
+
+-
+
+#output variablas
+x="good"
+y="python"
+
+print (x+y) 
+
+SONUÇ - goodpython (BİRLEŞİK YAZIYOR ÇÜNKÜ VİRGÜL YERİNE ARTI KULLANDIK(ÇÖZÜM İSTENİLEN KELİMENİN SONUNA BOŞLUK-
+ BIRAKMAK AMA UĞRAŞMAYA DEĞMEZ)
+
+-
+
+#global variables
+text="marvellous"
+
+def myFunction():
+    print("python is "+text)
+
+myFunction()
+
+SONUÇ - python is marvellous (DEF PYTHON KALIBIDIR KENDİ FUNCTİONIMIZI OLUŞTURMAMIZI SAĞLAR, myFunction YAZDIĞIMIZDA-
+python is DEF YAZILI YERDEN GELİYOR +TEXT İLE GLOBALDAKİ TEXTTEN KELİME ALIYOR(global text yani kendi functionumuzda-
+olmayan ana kaynaktadı text'i kastediyor) VE python is marvellous OLUYOR, GLOBAL FUNCTIONLAR HEM FUNCTION İÇNİDE HEMDE-
+DIŞINDA KULLANILABİLİR.
+
+-
+
+#global variables
+text="marvellous"
+
+def myFunction():
+    text="fantastic"
+    print("python is "+text)
+
+myFunction()
+
+SONUÇ - python is fantastic ÇÜNKÜ İLK ÖNCE LOCAL OLAN ALINIR 
+
+-
+
+#global variables
+text="marvellous"
+
+def myFunction():
+    text="fantastic"
+    print("python is "+text)
+
+myFunction()
+print ("python is "+text)
+
+SONUÇ - python is fantastic
+        python is marvellous ÇÜNKÜ ÖNCE LOCAL SONRA GLOBALİ İSTEDİK VE FUNCTIONUN DEFİN DIŞINDAKİ FUNCTION DEF OLAN-
+YERDEN TEXTİ ALAMAZ GLOBALDEKİNİ ALIR LOCAL OLANI ALMAYA ÇALIŞIRSAK HATA OLUR
+
+-
+
+#global variables
+text="marvellous"
+
+def myFunction():
+    global x
+    x="fantastic"
+
+myFunction()
+print ("python is "+x)
+
+SONUÇ - python is fantastic ÇÜNKÜ PYTHONA AİT OLAN GLOBAL SIFATINI X'E VERDİK XİDE FANTASTİCLE EŞLEŞTİRDİK VE ARTIK-
+LOCAL İÇİNDEKİ FUNCTIONU LOCAL DIŞINDA KULLANABİLDİK.
+
+-
+
+#why variables
+
+number=7
+print (number)
+number=19
+print (19)
+
+SONUÇ - 7G
+        19 ÇÜNKÜ NUMBERİ 7 YAPTIK SONRA AYNI ŞEYİ SONRAKİ SATIRDA 19 YAPTIK (PROGRAM ÜSTLERDE NE OLDUĞUNU HATIRLAMAZ)
+
+-
+
+#why variables
+
+number=7
+print (number)
+number=19
+print (19)
+
+number=number*2
+print (number)
+
+SONUÇ - 38 ÇÜNKÜ EN SON NUMBER 19DU ONU İKİYLE ÇARPIP ÇIKAN SONUCU SOLDAKİ NUMBERA İŞLETTİK VE SONUÇ 38
+
+BİLGİ - İŞLEMLER SAĞDAN SOLA İLERLER, YANİ SAĞDA İŞLENİR VE SOLA ATANIR.
