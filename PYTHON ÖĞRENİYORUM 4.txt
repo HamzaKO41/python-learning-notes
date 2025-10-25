@@ -1,0 +1,187 @@
+DERS 4
+
+name="hamza" #string - str data type
+age=20 #integer - int data type
+weight=75.80 #float data type
+comp=2j #complex data type
+print ("isim",name,"yaş",age,"kilo",weight,"karmaşık sayı",comp)
+
+SONUÇ - isim hamza yaş 20 kilo 75.80 karmaşık sayı 2j
+
+-
+
+name="hamza" #string - str data type
+age=20 #integer - int data type
+weight=75.80 #float data type
+comp=2j #complex data type
+print ("isim"+name+"yaş"+str(age)+"kilo"+str(weight)+"karmaşık sayı"+str(comp))
+
+SONUÇ - isimhamzayaş20kilo75.8karmaşık sayı2j BİTİŞİK OLDU ÇÜNKÜ + KULLANDIK BU YÜZDEN "" İÇİNDEKİLERİN SONUNA BOŞLUK KOYMALIYIZ VE BURADA STR İLE DATA TYPELARINI-
+DEĞİŞTİRDİK VE STR İLE SAYI OLARAK DEĞİL SAYILARI İFADE/METİN FORMUNDA YAZIYOR ASLINDA
+
+-
+
+name="hamza" #string - str data type
+age=20 #integer - int data type
+weight=75.80 #float data type
+comp=2j #complex data type
+
+print (type(name))
+print (type (age))
+print (type (weight))
+print (type (comp))
+
+SONUÇ - <class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'complex'> BU ŞEKİLDE VARIBLELARIMIZIN TYPELARINI GÖREBİLİYORUZ
+
+-
+
+myList=["apple","grape","Cherry","Banana","Lemon","Watermelon"]
+print (myList)
+
+SONUÇ - ['apple', 'grape', 'Cherry', 'Banana', 'Lemon', 'Watermelon'] BU ŞEKİLDE TEK TEK HER BİR MEYVEYE/İFADEYE VARİBLE VERMEKTENSE LİSTE OLUŞTURMUŞ OLUP BU ŞEKİLDE-
+RAMLERİMİZİ DAHA UYGUN KULLANABİLİYORUZ VE BUNU YAPARKEN [] KÖŞELİ PARANTEZ KULLANMALIYIZ.
+
+-
+
+myList=["apple","grape","Cherry","Banana","Lemon","Watermelon"]
+MyTuple=("apple","grape","Cherry","Banana","Lemon","Watermelon")
+print (type(MyTuple))
+print (myList)
+
+SONUÇ - <class 'tuple'>
+['apple', 'grape', 'Cherry', 'Banana', 'Lemon', 'Watermelon'] TUPLE İLE LIST'IN FARKINA İLERİDE DAHA DETAYLI GİRİLECEK AMA ŞU ANKİ BİLGİ TUPLE'IN İÇİNDEKİ BİLGİLER-
+DEĞİŞTİRİLEMEZ VE NORMAL PARANTEZLE YAPILMAK ZORUNDA TUPLE'IN İÇİNDEKİ BİLGİLERİN DEĞİŞMESİ İÇİN TUPLE'IN LİSTEYE ÇEVRİLMESİ GEREK ONUN KODUDA x=list(MyTuple) VEYA-
+list(MyTuple)
+
+-
+
+MyRange=range(7) #range data type
+
+print (type(MyRange))
+print (MyRange)
+
+SONUÇ - <class 'range'>
+range(0, 7) RANGE İLE DÖNGÜ OLUŞTURABİLİRİZ VE BU KODLA 7 YERİNE NE YAZARSAK YAZALIM O SAYININ Bİ ALTINDAKİ SAYIYA KADAR SAYMAYA BAŞLAR ÖRNEK AŞAĞIDA
+
+-
+
+MyRange=range(7) #range data type
+
+print (type(MyRange))
+print (*MyRange)
+
+SONUÇ - <class 'range'>
+0 1 2 3 4 5 6 ÇÜNKÜ BU SEFER YAZDIRIRKEN YANİ SON SATIRA YAZILAN KOD İLE YAZDIRIRKEN PARANTEZ İÇİNDEKİ MYRANGEİN BAŞINA * KOYDUK VE BU SEFER YAZMASINI İSTEDİK.
+
+-
+
+MyDict={"name":"hamza","age":20} #dict data type
+
+print (type(MyDict))
+print (MyDict)
+
+SONUÇ - <class 'dict'>
+{'name': 'hamza', 'age': 20} NAME ANAHTARDIR HAMZA DEĞERDİR ANAHAT : DEĞER , BU ŞEKİLDE GİDİŞAT OLUR BU YÜZDEN SONUÇ BÖYLEDİR HER VİRGÜLDEN SONRA Bİ SONRAKİ VERİYE-
+GEÇİLİR YANİ YENİ ANAHTAR YAZILIR VE SÜSLÜ PARANTEZLE YAPILMAK ZORUNDA.
+
+-
+
+MySet={"apple","grape","Cherry","Banana","Lemon","Watermelon"} #set data type
+
+print (type(MySet))
+print (MySet)
+
+SONUÇ - <class 'set'>
+{'grape', 'Watermelon', 'Lemon', 'apple', 'Cherry', 'Banana'} YİNE SÜSLÜ PARANTEZ KULLANMAK ZORUNDAYIZ DİCT İLE BİLİNEN FARKI ANAHTAR YOK SADECE DEĞER TUTUYOR
+OLMASI.
+
+-
+
+MyFrozenset=({"apple","grape","Cherry","Banana","Lemon","Watermelon"}) #MyFrozenset data type
+
+print (type(MyFrozenset))
+print (MyFrozenset)
+
+SONUÇ - <class 'set'>
+{'apple', 'grape', 'Banana', 'Lemon', 'Watermelon', 'Cherry'} FROZENSETİN FARKI NORMAL SET DAHA ESNEKTİR FROZEN SETTE VERİ DEĞİŞTİRMEK DAHA ZORDUR VE ÖNCE NORMAL
+PARANTEZ SONRA SÜSLÜ PARANTEZ KULLANARAK YAPILIR YANİ ({}) BU ŞEKİLDE VE NORMAL SETTEKİ GİBİ SADECE DEĞER VERİSİ GİRİLİR.
+
+-
+
+myBool=False
+print (type(myBool))
+print (myBool)
+
+SONUÇ - <class 'bool'>
+False BU VARIBLE BİR ŞEYİN YA VAR YADA YOK OLDUĞUNU SÖYLER TRUE YADA FALSE YAZILMALIDIR YANİ YA 0 YA 1DİR 1 TRUEDUR 0 FALSEDIR BAŞ HARFLERİ BÜYÜK YAZILMALIDIR
+ÖRNEĞİN BİR ÜYELİK SİSTEMİMİZ VAR Bİ ADAM ÜYEYSE True YAZAR VE ÜYE OLDUĞUNU BİLGİSAYAR BİLİR ÜYELİĞİ BİTTİYSE EĞER False YAZAR BOOL BU İŞE YARAR
+
+-
+
+x=None #null none type
+print (type(x))
+print (x)
+
+SONUÇ - <class 'NoneType'>
+None YANİ BURADA X İN HERHANGİ Bİ VERİ TÜRÜYLE ALAKASI OLMADIĞINI BOŞ DURUMDA OLDUĞUNU GÖSTERİYOR BİZE BOŞ OLDUĞUNU BELİRTMEK İÇİN BUNU YAPIYORUZ
+
+-
+
+import sys
+x=7 #int
+print (sys.getsizeof(x))
+
+SONUÇ - 28 BU ŞEKİLDE X İN NE KADAR BYTE TÜKETTİĞİNİ GÖRÜYORUZ XDE 7 OLDUĞU İÇİN 7 SAYISININ NE KADAR TÜKETTİĞİNİ ÖĞRENİYORUZ VE BU ARADA SYS BİR KÜTÜPHANEDİR
+import sys YAZMADAN SYSDEN YARARLANAMIYORUZ EĞER SYS YAZACAK İSEK import sys YAZMALIYIZ 
+
+-
+
+name=b"python" #bytes 01001
+
+print (type(name))
+print (name)
+
+SONUÇ - <class 'bytes'>
+b'python' BU ŞEKİLDE PYTHONU BYTE TÜRÜNDE YAZDIK BUNLAR İLERİDE İŞİMİZE YARICAK VE BYTES VERİ TİPİ TEMEL OLARAK ASKİ KARAKTERLERİ KABUL EDER YANİ KISACASI İNGİLİZCE
+KLAVYE GİBİ Ş Ç GİBİ HARFLER KULLANILMAZ EĞER KULLANMAK İSTERSEK
+
+-
+
+name=bytes("ş","utf-8") #bytes 01001
+
+print (type(name))
+print (name)
+
+SONUÇ - <class 'bytes'>
+b'\xc5\x9f' BİZE Ş HARFİNİ BU ŞEKİLDE TEMSİL ETTİ
+
+- 
+
+name=bytearray([65])
+
+print (type(name))
+print (name)
+
+SONUÇ - <class 'bytearray'>
+bytearray(b'A') BU HARF YANİ "A" 65İN ASKİ TABLODAKİ KARŞILIĞI OLAN HARFTİR YANİ BYTEARRAY65 YAZDIĞIMIZDA ASKİ TABLODAKİ KARŞILIĞINI ALIYORUZ
+
+UFAK ÖZETLE BYTES DEĞİŞTİRİLEMEZ DURUMLARA SOKARKEN (YANİ ZOR DEĞİŞİRKEN) BYTEARRAY DAHA BASİT DEĞİŞİR DAHA ESNEKTİR.
+
+-
+
+name=memoryview(bytes(5))
+
+print (type(name))
+print (name)
+
+SONUÇ - <class 'memoryview'>
+<memory at 0x0000020A8F8D5540> BİZE RAMDEKİ TÜKETİMİ GÖSTERİYOR VE BU VARİBLE SAYESİNDE OPTİMİZE FALAN EDEBİLİYORUZ VERİ ANALİZLERİ FALAN İÇİN GENELDE BU VARİBLE
+KULLANILIR.
+
+
+
+
+ 

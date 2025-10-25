@@ -1,0 +1,44 @@
+DERS 8
+
+text="python is weird"
+
+print(text[1:5])
+
+SONUÇ YTHO ÇÜNKÜ BURADA DEDİKKİ 1. KARAKTERLE 5. KARATERİN ARASINDAKİ KARAKTERLERİ YAZ AMA BURADA 1. KARAKTER
+DAHİLKEN 5. KARAKTER DAHİL DEĞİLDİR.
+
+-
+
+text="python is weird"
+
+print(text[-5:-1])
+
+SONUÇ weir ÇÜNKÜ BURADADA EKSİ KOYARAK İŞİN TERSTEN OLMASINI SAĞLADIK.
+
+-
+
+text="python"
+text2="is weird"
+
+result=text + text2
+print(result)
+
+SONUÇ - pythonis weird BURADA BİRŞELİK OLUYOR EĞER BOŞLUK İSTİYORSAN
+
+text="python "
+text2="is weird"
+
+result=text + text2
+print(result)
+
+YADA
+
+text="python"
+text2="is weird"
+
+result=text +" "+ text2
+print(result)
+
+YAPMALISIN VE SONUÇ python is weird OLUR.
+
+-

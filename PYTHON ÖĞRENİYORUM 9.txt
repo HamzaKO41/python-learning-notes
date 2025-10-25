@@ -1,0 +1,40 @@
+DERS 9
+
+#modify strings & escape characters
+
+text="python is doing well"
+
+print(text.upper()) #upper case
+print(text.lower()) #lower case
+
+SONUÇ PYTHON IS DOING WELL
+python is doing well UPPER İLE YAZILARI BÜYÜTTÜK LOWER İLE KÜÇÜLTTÜK.
+
+-
+
+#modify strings & escape characters
+
+text=" python is doing well "
+
+print(text.strip())
+
+SONUÇ - python is doing well BAŞTA VE SONDAKİ BOŞLUKLARI STRİP SAYESİNDE SİLDİK.
+
+-
+
+text="python is doing well"
+print(text.replace("p","t"))
+
+SONUÇ - tython is doing well BURADA PYİ T İLE DEĞİŞTİRDİ REPLACE SAYESİNDE.
+
+-
+
+text="hello python, java, c#"
+result=text.split(",")
+
+print(result)
+
+SONUÇ - ['hello python', ' java', ' c#'] SPLİT SAYESİNDE SONA VİRGÜL KOYDUĞUMUZ İFADEYİ TEK TIRNAK İLE AYIRDI.
+
+-
+

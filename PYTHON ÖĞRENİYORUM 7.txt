@@ -1,0 +1,92 @@
+DERS 7
+
+print ("try 'ıt'") try 'ıt' DOĞRU
+print ('try "ıt"') try "ıt" DOĞRU
+print ("try "ıt"") YANLIŞ ÇÜNKÜ ÇİFT TIRNAĞIN İÇİNDE AYRIYETEN ÇİFT TIRNAK OLMAZ
+print ('try 'ıt'') YANLIŞ ÇÜNKÜ TEK TIRNAĞIN İÇİNDE AYRIYETEN TEK TIRNAK OLMAZ
+print ("try \"ıt\"") DOĞRU ÇÜNKÜ ÇİFT TIRNAĞIN İÇİNDE ÇİFT TIRNAK OLMASINA RAĞMEN \ KULLANILARAK EGALE EDİLDİ
+
+-
+
+cars=["bmw","volvo","merso","skoda","nissan"]
+
+print(cars[3])
+
+SONUÇ SKODA ÇÜNKÜ ARRYLER 0INCI İNDEKSLE BAŞLAR VE SKODA 3. İFADEDİR
+
+text="hello"
+
+print(text[4])
+
+SONUÇ O ÇÜNKÜ STRİNKLERDE ARREYDİR ONLARDA SIFIRDAN BAŞLAR
+
+-
+
+
+text="python is weird"
+
+for x in text:
+    print(x)
+
+SONUÇ - p
+y
+t
+h
+o
+n
+
+i
+s
+
+w
+e
+i
+r
+d ÇÜNKÜ FOR İLE DÖNGÜYE ALDIK VE TEK TEK HARFLERİ DÖNGÜ ŞEKLİNDE YAZDI
+
+-
+
+text="python is weird"
+
+print(len(text))
+
+SONUÇ - 15 ÇÜNKÜ LEN FUNCTIONI SAYESİNDE YAZILAN ŞEYLERİN KARAKTER UZUNLUĞUNU GÖRDÜK
+
+-
+
+text="python is weird"
+
+print("python" in text)
+
+SONUÇ - TRUE ÇÜNKÜ İN KODU SAYESİNDE TEXTTE OLAN KELİMEYE VAR MI YOK MU DİYE SORDUK
+
+-
+
+text="python is weird"
+
+x="is"
+
+if x in text:
+    print("evet var")
+
+SONUÇ evet var ÇÜNKÜ İF KODU EĞER ANLAMINA GELİR VE BİZ EĞER X TEXTİN İÇİNDE VARSA DİYE YAZDIK VE OLDUĞU İÇİN EVET
+VAR DEDİ.
+
+-
+
+text="python is weird"
+
+x="aşk"
+
+if x in text:
+    print("evet var")
+
+if x not in text:
+    print("yok knk kb")
+
+SONUÇ yok knk kb ÇÜNKÜ BİZ BURADA BAŞTA DİYORUZKİ EĞER X TEXTİN İÇİNDE VARSA evet var DE EĞER YOKSA yok knk DE VE
+BUNLARI in VE not in KODLARIYLA YAPIYORUZ.
+
+-
+
+

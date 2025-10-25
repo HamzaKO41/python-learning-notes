@@ -1,0 +1,38 @@
+DERS 11
+
+#string formatlama
+age=34
+name="Hamza KO"
+text=f"My name is {name}, I am {age}" #f-string
+print(text)
+
+SONUÇ - My name is Hamza KO, I am 34 BURADA F YAZDIK BAŞA BUNUN SEBEBİ F BİZE CÜMLEDEKİ AGE VARİABLEIN KULLANABİLMESİNİ SAĞLIYO TAM SAYIYI STR YAPMAYA
+UĞRAŞMADAN ONU KULLANABİLİYORUZ F YAZARAK.
+
+-
+
+#string formatlama
+age=34
+name="Hamza KO"
+price=19.43636
+#text=f"My name is {name}, I am {age}" #f-string
+text=f"the price is {price:.1f} turkish lira"
+print(text)
+
+SONUÇ - the price is 19.4 turkish lira BURADA PRİCEIN İÇİNDEKİ DEĞERİ DAHA ÖZET İSTEDİĞİMİZ İÇİN :.1F YAZDIK VE NOKTADAN SONRAKİ İLK 1. SAYIYI VERDİ EĞER
+2 YAZSAYDIK 2 SAYIYI VERCEKTİ 19.45 OLACAKTI YUVARLAYACAKTI.
+
+-
+
+#string formatlama
+midterm_exam_score=input("Enter the midterm exam grade:")
+final_exam_score=input("Enter the final exam grade:")
+ortalama=(float(midterm_exam_score)+float(final_exam_score))/2
+
+result=f"Your midterm exam score is {midterm_exam_score}\nyour final exam score is {final_exam_score}\nyour average score is {ortalama}"
+print(result)
+
+SONUÇ HEM VİZE NOTUNU İSTEDİ, GİRDİK. HEM FİNAL NOTUNU İSTEDİ, GİRDİK. SONRA ORTALAMA YAPTIK VE FLOAT İLE YAPTIK ÇÜNKÜ KÜSÜRATLI OLABİLİRDİ
+VE SONRA BU KÜSÜRATLI SAYILARI KULLANABİLELİM DİYE F YAZIP HEPSİNİ RESULTA EKLEYİP PRİNTLEDİK.
+
+-

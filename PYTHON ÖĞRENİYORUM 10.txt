@@ -1,0 +1,60 @@
+DERS 10
+
+#& escape characters
+
+text="python is \"doing\" well"
+print(text)
+
+SONUÇ - python is "doing" well BACK SLASH SAYESİNDE (\) ÇİFT TIRNAK İÇERİSİNDE ÇİFT TIRNAK KULLANABİLDİK.
+
+-
+
+#& escape characters
+
+text="python is doing \\ well"
+print(text)
+
+SONUÇ - python is doing \ well ÇÜNKÜ CÜMLE İÇİNDE BACKSLASH KULLANMAK İSTİYOSAK BAŞINA BACK SLASH KOYMALIYIZ.
+
+-
+
+#& escape characters
+
+text="python\nis\ndoing\nwell"
+print(text)
+
+SONUÇ - python
+is
+doing
+well ÇÜNKÜ \N SAYESİNDE YAZILAN İFADENİN SONUNA \N YAZARAK Bİ SONRAKİ SATIRA GEÇİRTİYORUZ.
+
+-
+
+#& escape characters
+
+text="hello\rpython"
+print(text)
+
+SONUÇ - python ÇÜNKÜ \r SAYEİNDE HELLONUN SONUNA KOYDUĞUMUZ İÇİN \RDEN SONRA KAÇ KARAKTER VARSA ONU BAŞA ALIR.
+PYTHON 5 KARAKTER HELLO 5 KARAKTER YANİ HEPSİ DEĞİŞİR.
+
+-
+
+#& escape characters
+
+text="hello\tpython"
+print(text)
+
+SONUÇ - hello   python \t SAYESİNDE İFADELERİN ARASINDA 1 TAB BOŞLUK OLUŞTU.
+
+-
+
+#& escape characters
+
+text="hello\bpython"
+print(text)
+
+SONUÇ - HELLPYTHON ÇÜNKÜ \B SAYESİNDE TÜM KARAKTERLER DEĞİŞMEZ AMA KENDİNDEN Bİ ÖNCEKİ KARAKTERDEN YAZMAYA BAŞLAR.
+
+-
+

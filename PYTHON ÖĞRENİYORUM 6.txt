@@ -1,0 +1,90 @@
+DERS 6
+
+BETAVARİATE
+
+import random
+
+print(random.betavariate(1,8))
+
+BURADA SONA YAZILAN 2 RAKAMDAN İLKİ NE KADAR DÜŞÜK OLURSA 0A O KADAR YAKLAŞIR İKİNCİ RAKAM NE KADAR DÜŞÜK OLURSA 
+O KADAR 1E YAKLAŞIR VE BURADA SONUÇ 0.04619064362529306 (BETA DAĞILIMINA GÖRE 0 İLA 1 ARASINDA ONDALIKLI SAYI DÖN-
+DÜRÜYOR
+
+-
+
+EXPOVARİATE
+
+import random
+
+print(random.expovariate(0.5))
+
+ÜSTEL DAĞILIMA GÖRE ONDALIKLI SAYI ÜRETİYOR
+
+-
+
+GAMMAVARİATE
+
+import random
+
+print(random.gammavariate(100,2))
+
+BUNLAR İSTATİSLİK BİLİMİNE AİT KAVRAMLAR İSTATİSLİK HESAPLAMADA İŞE YARIYOR BURADA SONUÇ 188.49444464465313
+
+-
+
+GAUSS
+
+import random
+
+print(random.gauss(100,50))
+
+SONUÇ 63.27141222080515 OLASILIK TEORİLERİNDE KULLANILIR 
+
+-
+
+LOGNORMVARİATE
+
+import random
+
+print(random.lognormvariate(100,0.50))
+
+RASTGELE ONDALIKLI SAYI OLUŞTURUYOR BEYNİM ALAMIYOR BUNLARIN ARASINDAKİ FARKI AMK NEYSE
+
+-
+
+NORMALVARİATE
+
+import random
+
+print(random.normalvariate(100,50))
+
+YİNE RASTGELE SAYI ÜRETİYO
+
+-
+
+VONMISESVARIATE
+
+import random
+
+print(random.vonmisesvariate(0,5))
+
+YÖN İSTATİSLİKLERİYLE ALAKALI BİR ŞEY
+
+-
+
+PARETOVARİATE
+
+import random
+
+print(random.paretovariate(3))
+
+BUDA PARETOYA DAYALI SAYILAR VERİYO ONDALIKLI, KÜSÜRATLI 0 LA 3 ARASI SAYILAR
+
+-
+
+import random
+
+print(random.weibullvariate(3,0.5))
+
+BURDADA VERİLEN SAYILAR ARASINDA SAYI ÜRETTİ SANIRIM
+
