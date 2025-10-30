@@ -1,0 +1,95 @@
+DERS 17
+
+x=7
+y=19
+
+if x==y:
+    print(f"{x} and {y} are equal")
+else:
+    print(f"{x} and {y} are not equal")
+
+SONUÇ - 7 and 19 are not equal DEDİKKİ X VE Y EŞİTSE X VE Y EŞİT DE AMA DEĞİLSE EŞİT DEĞİL DE DEDİK.
+
+-
+
+x=7
+y=19
+
+if x!=y:
+    print(f"{x} and {y} are not equal")
+else:
+    print(f"{x} and {y} are equal")
+
+SONUÇ - 7 and 19 are not equal BURDADA DEDİKKİ EĞER EŞİT "DEĞİLSE" DEDİK ! KULLANDIK ÖNCEKİ EĞER EŞİTSEYDİ DİYE SORUYODUK
+BU SEFER EĞER EŞİT DEĞİLSE DİYE SORUYORUZ VE CEVAPLARI YER DEĞİŞTİRDİK.
+
+-
+
+x=7
+y=19
+
+if x>y:
+    print(f"{x} is greater than {y}")
+else:
+    print(f"{x} is less than {y}")
+
+
+SONUÇ - 7 is less than 19 BURDADA DİYORUZKİ EĞER X YE DEN BÜYÜKSE BUNU YAZ EĞER DEĞİLSE BUNU YAZ VE CEVAP ELSEDEKİ OLUYOR.
+
+-
+
+x=19
+y=16
+
+if x>=y:
+    print(f"{x} is greater than {y} OR {x} and {y} are equal")
+else:
+    print(f"{x} is less than {y}")
+
+SONUÇ - 19 is greater than 16 OR 19 and 16 are equal ÇÜNKÜ >= BÜYÜK VEYA EŞİTSE DİYORUZ YANİ DEDİKKİ X YDEN BÜYÜK
+VEYA EŞİTSE BUNU YAZ AMA EĞER DEĞİLSE BUNU YAZ DEDİK VE X 19 Y 16 OLDUĞU İÇİN İLK PRİNTİ YAZDI YANİ TRUE VERDİ.
+
+-
+
+realpassword="12345"
+
+mypassword=input("Enter the password:")
+
+if realpassword == mypassword:
+    print("tebrikler password doğru")
+else:
+    print("sorry doğruı değil")
+
+SONUÇ - ŞİFRE GİRMESİNİ İSTİYOR EĞER GİRİLEN ŞİFRE PASSWORDLA EŞLEŞİYORSA PASSWORD DOĞRU AMA EŞLEŞMİYOSA YANLIŞ
+DİYOR.
+
+-
+
+realpassword="12345"
+
+mypassword=input("Enter the password:")
+
+if realpassword != mypassword:
+    print("sorry doğruı değil")
+else:
+    print("DOĞRU PASSWORD")
+
+SONUÇ - BURDADA EĞER EŞİT DEĞİLSE DİYORUZ SORRY DOĞPRU DEĞİL GİR DİYORUZ AMA EŞİTSE TRUE GİRİYOR.
+
+-
+
+number=int(input("Enter a number:"))
+
+if number<0:
+    print("the entered number cannot be less than zero")
+elif number%2 ==0:
+    print(f"{number} is an even number")
+else:
+    print(f"{number} is an odd number")
+
+SONUÇ - ÖNCE NUMARA GİRİLMESİNİ İSTİYORUZ VE BU NUMARAYI İNTEGERA ZORLUYORUZ ÇÜNKÜ TAM SAYI OLMALI, SONRASINDA
+ DİYORUZKİ EĞER SAYI SIFIRDAN KÜÇÜKSE GİRİLEN SAYI SIFIRDAN DÜŞÜK OLAMAZ YAZDIRIYORUZ SONRA ELİF DİYORUZ
+EĞER SAYININ 2YE BÖLÜNEN HALİNDEN KALAN SAYI SIFIRA EŞİTSE BU Bİ ÇİFT SAYI DİYORUZ
+EĞER EŞİT DEĞİLSE TEK SAYI DİYORUZ.
+
+-

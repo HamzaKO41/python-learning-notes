@@ -1,0 +1,32 @@
+DERS 15
+
+if 70>7:
+    print("first number is greater than second number")
+
+SONUÇ - first number is greater than second number 70, 7DEN BÜYÜK OLDUĞU İÇİN KOD TRUE DÖNÜYOR VE BUNU YAZIYOR.
+
+-
+
+if 7>7:
+    print("first number is greater than second number")
+elif 7==7:
+    print("first number and second number are equal")
+
+SONUÇ - first number and second number are equal ÇÜNKÜ BAŞTA BÜYÜKSE DİYE SORDUK FALSE DÖNDÜ ELİFE BAKTI
+ELİFDE EĞER EŞİTSE DİYE SORDU VE TRUE DÖNDÜ ELİF ELSE İF OLUYOR.
+
+-
+
+if 7>70:
+    print("first number is greater than second number")
+elif 7==70:
+    print("first number and second number are equal")
+else:
+    print("first number is less than second number")
+
+SONUÇ - first number is less than second number ÇÜNKÜ İLK İKİSİ FALSE DÖNDÜ EN SONDA EĞER DEĞİLSE DEDİK VE 
+TRUE DÖNDÜ.
+
+
+
+

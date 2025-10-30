@@ -1,0 +1,116 @@
+DERS 13
+
+text="welcoma to my world. my world is python"
+
+result=text.count("earth")
+print(result)
+
+SONUÇ - 2 ÇÜNKÜ BURADA COUNT İLE VERDİĞİMİZ KELİMENİN TEXTTE NE KADAR GEÇTİĞİNİ SORDUK VE ODA 2 KERE GEÇTİĞİNİ
+SÖYLEDİ.
+
+text="welcoma to my world. my world is python"
+
+result=text.count("world",11,22)
+print(result)
+
+BÖYLE DİYORUZKİ 11. KARAKTERDEN 22. KARAKTERE KADAR ARA.
+
+-
+
+
+text="welcoma to my world. my world is python"
+
+result=text.startswith("wel")
+print(result)
+
+
+SONUÇ - True BURADA STARTSWİTH SAYESİNDE DİYORUZKİ BU TEXT WEL KARAKTERİYLEMİ BAŞLIYOR ODA EVET DİYOR.
+
+text="welcoma to my world. my world is python"
+
+result=text.startswith("wel",2,12)
+print(result)
+
+BURADADA YİNE BAŞLAYACAĞI KARAKTERİ SÖYLEDİK.
+
+-
+
+text="welcoma to my world. my world is python"
+
+result=text.endswith("thon")
+print(result)
+
+SONUÇ - True BURADADA ENDSWITH SAYESİNDE HANGİ KODLA BİTTİĞİNİ DOĞRULUYORUZ.
+
+-
+
+text="p\tython"
+
+result=text.expandtabs()
+print(result)
+
+
+SONUÇ - p       ython BURADAKİ BOŞLUĞU \t ile YAPTIK FAKAT \t NİN NE KADAR BOŞLUK BIRAKACAĞINI expandtabs İLE
+AYARLADIK YANİ expandtabs \t NİN NE KADAR BOŞLUK BIRAKACAĞINI AYARLIYOR.
+
+-
+
+text="my world is python"
+
+result=text.find("python")
+print(result)
+
+SONUÇ - 12 ÇÜNKÜ FİND İLE PYTHONUN KAÇINCI SIRALAMADA BAŞLADIĞINI SORDUK VE SÖYLEDİ VE İLK KARAKTER SIFIR OLARAK
+BAZ ALINIYOR.
+
+-
+
+text="my world is python"
+
+result=text.index("python")
+print(result)
+
+SONUÇ - 12 YANİ İNDEX FİND İLE AYNI İŞLEVİ GÖRÜR AMA ARANILAN ŞEY BULUNAMAZSA KODDA HATA VERİR FAKAT FİND
+-1 YAZAR YANİ FİND DAHA KULLANIŞLI.
+
+-
+
+text="my world is python"
+text2="python"
+result=text2.isalnum()
+print(result)
+
+SONUÇ - TRUE ÇÜNKÜ İSALNUM İLE SORDUĞUMUZ VARİBLEDA SADECE RAKAM VE HARFİ DOĞRU KABUL EDER BOŞLUK VEYA BAŞKA
+KARAKTERLERİ FALSE OLARAK GÖRÜR.
+
+-
+
+text="my world is python"
+text2="python"
+result=text2.isalpha()
+print(result)
+
+SONUÇ - TRUE ÇÜNKÜ SADECE AMA SADECE A DAN Z YE HARF KABUL EDER SAYI VEYA RAKAM VEYA ÜNLEM FALAN KABUL ETMEZ.
+
+-
+
+text="my world is python"
+text2="python"
+result=text2.isascii()
+print(result)
+
+SONUÇ - TRUE ÇÜNKÜ ASCİ KARAKTERLER Mİ VAR SADECE DİYE SORDUK EVET DEDİ AMA Ş FALAN GİRSEYDİK FALSE DERDİ.
+
+-
+
+text="my world is python"
+text2="python"
+result=text2.isdecimal()
+print(result)
+
+SONUÇ - FALSE ÇÜNKÜ SADECE SAYIYA İZİN VERİR BOŞLUK VEYA NOKTAYA İZİN VERMEZ.
+
+-
+
+
+

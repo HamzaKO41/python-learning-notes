@@ -1,0 +1,87 @@
+DERS 12
+
+text="welcome to my world.Hows ıt goıng?"
+
+result=text.capitalize()
+print(result)
+
+SONUÇ - Welcome to my world.hows ıt goıng? CAPİTALİZE SAYESİNDE TÜM STRİNKTE SADECE İLK HARF BÜYÜK OLDU
+
+-
+
+text="welcome to my world.Hows ıt goıng?"
+
+result=text.casefold()
+print(result)
+
+SONUÇ - welcome to my world.hows ıt goıng? ÇÜNKÜ CASEFOLD TÜM HARFLERİ KÜÇÜK YAPAR LOWER İLE FARKI CASEFOLD
+DAHA GÜÇLÜDÜR LOWER 200 KARAKTER KÜÇÜLTEBİLİRKEN CASEFOLD 300 KARAKTER KÜÇÜLTÜR (SAYILAR ÖRNEK) - 
+VE CASEFOLD DAHA FAZLA GÜÇ TÜKETİR ALAN TÜKETİR.
+
+-
+
+text="welcome to my world.Hows ıt goıng?"
+
+result=text.title()
+print(result)
+
+SONUÇ - Welcome To My World.Hows It Goıng? TITLE SAYESİNDE HER KELİMENİN BAŞINI BÜYÜK YAZDI.
+
+FAKAT
+
+text="w7e7l7c7o7m7e my world"
+result=text.title()
+print(result)
+
+SONUÇ - W7E7L7C7O7M7E My World ÇÜNKÜ SAYILARI/RAKAMLARI HARF OLARAK GÖRMEZ SAYI GÖRÜR VE ONLARDAN SONRAKİ 
+KELİMELERİDE BÜYÜK YAZAR.
+
+-
+
+text="welcome to my world.Hows ıt goıng?"
+
+result=text.swapcase()
+print(result)
+
+SONUÇ - WELCOME TO MY WORLD.hOWS IT GOING? ÇÜNKÜ SWAPCASE KÜÇÜĞÜ BÜYÜK BÜYÜĞÜ KÜÇÜK YAPAR.
+
+-
+
+text="welcome to my world.hows ıt goıng?"
+
+result=text.islower()
+if(result):
+    print("evet küçük")
+
+else:
+    print("yok knk büyük")
+
+SONUÇ - evet küçük ÇÜNKÜ BİZ BURADA TEXT.İSLOWER()DİYEREK TEXTTEKİ TÜM YAZILAR KÜÇÜK MÜ DİYE SORDUK
+CEVAP YA TRUE YADA FALSE OLCAK EĞER TRUEYSA YANİ İFSE EVET KÜÇÜK DEDİRTTİK EĞER DEĞİLSE YANİ ELSEYSE
+YOK DEĞİL DEDİRTTİK.
+
+-
+
+text="welcome to my world.hows ıt goıng?"
+
+result=text.isupper()
+if(result):
+    print("küçük")
+
+else:
+    print("knk büyük")
+SONUÇ - knk büyük BURADADA BÜYÜK MÜ DİYE SORDUK.
+
+-
+
+text="hello python"
+
+result=text.center(20,"*")
+print(result)
+
+SONUÇ - ****hello python**** BURADA DEDİKKİ HELLO PYTHINI TOTALDE 20 KARAKTER OLACAK ŞEKİLDE ORTALA
+EĞER SADECE 20 YAZSAYDIK KENARLARDA BOŞLUK OLCAKTI AMA AYRIYETEN BİR ŞEY İSTEDİĞİMİZ İÇİN VİRGÜL KOYUP
+İSTEDİĞİMİZ KARAKTERİ GİRDİK.
+
+
+

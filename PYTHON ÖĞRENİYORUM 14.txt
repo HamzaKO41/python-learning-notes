@@ -1,0 +1,54 @@
+DERS 14
+
+text="the price is only {price:.2f} turkish lira!"
+print(text.format(price=70))
+
+SONUÇ - the price only 70.00 turkish lira! BURADA PRİCE ÖNCE FORMATI EKLEDİK VE SONRA PRICE A 70İ VERDİK VE SONRA SÜSLÜ PARANTEZİN İÇİNE
+PRICE VERDİK VE ONDALIKLI YAZMASINI İSTEDİĞİMİZ İÇİN :.2F YAZDIK.
+
+-
+
+text="my name is {name}, I'm {age} years old".format(name="hamza",age=20)
+
+print(text)
+
+SONUÇ - my name is hamza, I'm 20 years old BURADADA SÜSLÜ PARANTEZ AÇIP PRİNTE DEĞİL DİREKT .FORMAT YAZARAK TEXTIN SONUNA YİNE
+AYNI ŞEKİLDE NAME VE AGE E İFADELERE VEREREK CÜMLEYE KOYDUK.
+
+
+text="my name is {0}, I'm {1} years old".format("hamza",20)
+
+print(text)
+
+BU ŞEKİLDE YİNE AYNI SONUCU ALIYORUZ.
+
+text="my name is {}, I'm {} years old".format("hamza",20)
+
+print(text)
+
+SONUÇ YİNE AYNI İLK YAZILAN İLK KUTUYA GİDER.
+
+-
+
+text="we do not have {:<10} children"
+print(text.format(7))
+
+SONUÇ - we do not have 7          children < OLDUĞU İÇİN 7Yİ SAĞA BIRAKIP 10 KARAKTER BOŞLUK BIRAKTI > OLSAYDI 7Yİ SAĞA ALCAKTI 
+^ OLSAYDI ORTAYA ALCAKTI 7Yİ
+
+-
+
+text="we do not have {:=10} children"
+print(text.format(-7))
+
+SONUÇ - we do not have -        7 children BURDADA EKSİYİ BAŞA ALDI 7Yİ SAĞA ALDI + OLSAYDI +YI YAZMAZDI.
+
+-
+
+
+text="we do not have {:+} and {:+} children"
+print(text.format(-7,4))
+
+
+SONUÇ - we do not have -7 and +4 children BURDADA +YI GÖREBİLDİK ÇÜNKÜ SÜSLÜ PARANTEZLERİN İÇİNE + KOYDUK.
+

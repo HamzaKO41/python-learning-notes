@@ -1,0 +1,50 @@
+DERS 16
+
+x=70
+y=19
+if x>y:
+    print(x,"is greater than",y)
+
+SONUÇ - is greater than ÇÜNKÜ TRUE EĞER YANLIŞ BİŞEY YAZSAYDIK YANİ 19 70DEN BÜYÜKTÜR DESEYDİK İF KISMINDA FALSE
+DÖNCEKİ YANİ HİÇ BİŞEY YAZMAZDI.
+
+-
+
+x=bool("python")
+y=bool(7)
+print(x)
+print(y)
+print(type(x))
+print(type(y))
+
+SONUÇ - x=bool("python")
+y=bool(7)
+print(x)
+print(y)
+print(type(x))
+print(type(y)) ÇÜNKÜ BURDA X VE Y YE VERDİĞİMİZ STRİNG İLE İNTEGERİN TRUE MU YOKSA FALSE MU DİYE SORDUK SONRA
+YAZDIRDIK VE TYPELARINI SORDUK.
+
+-
+
+def myfunction():
+    return False
+
+if myfunction():
+    print("YES")
+
+else:
+    print("No")
+
+SONUÇ - No BURADA KENDİMİZ FUNCTION OLUŞTURUP RETURN OLARAKTA FALSE DEDİK YANİ FALSE VERMESİNİ İSTEDİK FUNCTIONUN
+SONRA EĞER DOĞRUYSA YES YOKSA NO YAZ DEDİK VE NO DEDİ ÇÜNKÜ RETURN FALSE.
+
+-
+
+x="70"
+
+print(isinstance(x,int))
+
+SONUÇ - False ÇÜNKÜ BURDA DİYORUZKİ İSİNSTANCE YANİ BAK DİYORUZ X DEDİK XE BAK İNTEGER Mİ DİYE ODA BAKTI
+FALSE DÖNDÜRDÜ ÇÜNKÜ STRİNG TIRNAK İÇİNDE.
+
